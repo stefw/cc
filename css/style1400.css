@@ -1,0 +1,303 @@
+/* ------------------  1280  ------------------ */
+
+@media only screen and (max-width:1440px) { 
+	
+		.category{
+			top:80px;
+			left:75px;
+			font-size: 16px
+		}
+		
+		
+		/* 
+			--------------  
+		HOME
+		--------------  */ 
+		#home{
+			  padding: 75px;
+		}
+		#home p{
+			  font-size:22px;
+		}
+		
+
+		/* --------------  
+		INTERVENTIONS
+		--------------  */ 
+		#interventions  > div > div .colonne {
+			font-size: 14px;
+			padding: 50px;
+		}
+		#interventions  > div > div .colonne span{
+			font-size: 34px;
+		}
+		#interventions  > div > div .colonne span.category{
+			font-size:15px;
+		}
+		#interventions .colonne + .colonne {
+			padding: 40px;
+		}
+		#interventions .colonne + .colonne li {
+			line-height: 22px;
+			font-size: 16px;
+		}
+		
+		/* --------------  
+		PRESTATIONS
+		--------------  */ 
+		.l1>div,.l2>div,.l3>div{
+		  padding-left: 50%;
+		  font-size: 22px;
+		}
+		  
+		.l1>div>div,.l2>div>div,.l3>div>div{
+			max-width: 220px;
+		  }  
+		.l1>div>div span,.l2>div>div span,.l3>div>div span{
+		  font-size: 20px;
+		  } 
+
+
+		#article1 .colonne {
+			font-size: 14px;
+			line-height:17px;
+			padding-left: 70px;
+			padding-right: 35px;
+			vertical-align: top;
+		}
+		
+		#article2 .colonne {
+			font-size: 14px;
+			line-height:17px;
+			padding-left: 70px;
+			padding-right: 35px;
+			vertical-align: middle;
+		}
+		#article1 .colonne + .colonne, #article2 .colonne + .colonne  {
+			font-size:14px;
+			line-height:20px;
+			padding-top: 190px;
+			padding-right: 70px;
+		}
+		
+		#article3 p{  
+			font-size: 16px;
+			line-height:18px;
+			padding-left:70px;
+			padding-right:50px
+		
+		}  
+		#article3 p.item{  
+			line-height:17px;
+			font-size: 15px;
+			display: block;
+			margin-top:10px;
+
+		} 
+		/* --------------  
+		CONVICTIONS
+		--------------  */ 
+		#convictions dt:before {
+			font: bold 80px/1 Sans-Serif;
+		}
+		#convictions .l1>div,#convictions .l2>div,#convictions .l3>div{
+		  font-size:16px;line-height: 18px;
+		}
+  
+		#convictions .l1>div>div,#convictions .l2>div>div,#convictions .l3>div>div{
+			max-width: 260px;
+		  }  
+  		#convictions dt {
+			padding: 10px 0px 0px 50px;
+		}
+		#convictions dd {
+			padding: 0px 0px 0px 50px;
+		}
+		#convictions .l1>div>div span,#convictions .l2>div>div span,#convictions .l3>div>div span{
+		  font-size:22px;line-height: 22px;
+		  }  		
+
+
+		
+		#article4 dt, #article5 dt, #article6 dt {
+			padding: 10px 0px 0px 55px;
+			font-size: 24px;
+			line-height: 35px;
+		}
+		#article4 dd, #article5 dd, #article6 dd {
+			padding: 0px 0px 0px 55px;
+			font-size: 16px;
+			line-height: 28px;
+		}
+		#article4 dt:before, #article5 dt:before, #article6 dt:before {
+			font: bold 80px/1 Sans-Serif;
+		}
+
+		.contain{
+			  	 margin:0px auto;
+			  	 padding: 75px;
+			  	 padding-top: 120px
+		}
+
+		.contain-p{
+			  	 margin-top:40px;
+			  	 font-size:16px;
+			  	 line-height: 20px
+		}
+
+		/* --------------  
+		LISTE
+		--------------  */ 
+		#liste  > div > div .colonne {
+			display : table-cell;
+			font-family:'HelveticaNeueW01-55Roma';
+			font-weight: bold;
+			font-size: 16px;
+			width:50%;
+			height: 100%;
+			padding: 70px;
+			padding-top: 75px;
+
+		
+		}
+		#liste  > div > div .colonne h2 {
+			font-size: 30px;
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+		
+		#liste  > div > div .colonne span {
+			font-size: 14px;
+
+		}
+		#liste   .colonne + .colonne {
+			padding: 30px		
+		}
+		
+		#liste   .colonne + .colonne li {
+			list-style-type: none;
+			margin-bottom: 3px;
+			border-bottom: 1px solid #ccc;
+			font-size:14px;			
+		}
+		
+
+		/* --------------  
+		REPARTITIONS
+		--------------  */ 		
+		.repartitions {
+			  padding:0;
+			  display:table;
+			  width:100%;
+			  table-layout: fixed;
+		}
+		
+		.repartitions > div {
+		   display: table-cell;
+		   height: 100%;
+		
+		}
+		.repartitions > div > div {
+		    display: table;
+		    height: 100%;
+		    width: 100%
+		}
+			
+		.repartitions > div > div .colonne {
+			display : table-cell;
+			font-family:'HelveticaNeueW01-55Roma';
+			font-weight: bold;
+			font-size: 16px;
+			width:39%;
+			height: 100%;
+			padding: 70px;
+			padding-top:75px;
+			background:#2A2C2A;
+			color:#FFF;
+			vertical-align: top
+		}
+		.repartitions > div > div .colonne p {
+
+			font-size: 14px;
+
+		}
+		.repartitions  > div > div .colonne h4 {
+			font-family: 'Archer A', 'Archer B'; 
+			font-weight: 400; 
+			font-style: normal;
+			font-size: 14px;
+			text-align: center;
+			color: #FFF;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.repartitions  > div > div .colonne h3 {
+			font-size: 50px;
+			font-weight: 700;
+			text-align: center;
+			color: #FFF
+		}
+		
+		.repartitions  > div > div .colonne h2 {
+			font-size: 25px;
+			padding-bottom: 0px;
+			font-weight: 400;
+			text-transform: uppercase;
+			text-align: center
+		}
+		
+		.repartitions > div > div .colonne span {
+			font-family: 'Archer A', 'Archer B'; 
+			font-weight: 500; 
+			font-style: normal;
+			color: #FFF;
+			text-align: center
+		
+		}
+		
+		
+		.repartitions  .colonne + .colonne {
+			display : table-cell;
+			width:61%;
+			height: 100%;
+			background:#97C4D7;
+			padding:40px;
+			text-align: left;
+			
+			color:#2A2C2A;
+			font-family: 'Archer A', 'Archer B'; 
+			font-weight: 500; 
+			font-style: normal;
+				
+		}
+		
+		.repartitions  .colonne + .colonne p {
+			margin-bottom: 10px;
+			font-size:14px;
+			line-height: 15px;
+		}
+
+/* --------------  --------------  --------------  --------------  */ 	
+	
+		#credits {
+		  background: #F4F4F4;
+		  height: 100%;
+		  padding: 75px
+		}
+		
+		#credits p{  
+			height: 100%;
+			vertical-align: middle; 
+			font-family: 'Archer A', 'Archer B'; font-weight: 400; font-style: normal;
+			font-size: 18px;
+			color: #000;
+			line-height: 28px;
+		}   
+		
+		#credits a{  
+			color: #000;
+			text-decoration: underline
+		} 
+
+		
+} 

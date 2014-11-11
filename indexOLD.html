@@ -1,0 +1,474 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Checkup Conseil</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">		
+		<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7138932/758586/css/fonts.css" />
+		<script type="text/javascript" src="http://fast.fonts.net/jsapi/86258663-9fb6-4cde-a5af-cf520dc13d36.js"></script>
+<style>
+
+	* {
+	   margin: 0;
+	   padding: 0;
+	   -moz-box-sizing: border-box;
+	   -webkit-box-sizing: border-box;
+	   box-sizing: border-box;
+	}
+	
+	 html, body, .container{ height: 100% ;   margin: 0; padding: 0;}
+	    
+	.container:after {
+	    clear: both;
+	}
+	
+	.left {
+	   height: 100%;
+	    float: left;
+	    width: 50%;
+	    position:relative;
+	    overflow: hidden;
+	    border-left: 2px solid #2A2C2A
+	}
+	.leftcontain,.leftcontainfull {
+	    padding: 75px
+	}
+	
+	.category{
+		position:relative;
+		top:120px;
+		left:75px;
+		font-family:'HelveticaNeueW01-55Roma';
+		font-size:18px;
+		font-weight: bold;
+		height: 0
+ 	}
+
+ 	
+	.white{color:#FFF}
+	.white a{color:#FFF}	
+	/* ------------------HPsection ------------------ */
+	
+	.home{ 
+		display: table-cell; 
+		vertical-align: middle; 
+		padding: 140px
+	   }
+	 .home p{   
+	   	font-family: 'Archer A', 'Archer B'; font-weight: 400; font-style: normal;
+	    font-size: 28px;
+	    color: #000;
+	    line-height: 35px 
+	    }   
+	.l{
+	  font-family:Arial;
+	  font-weight: bold;
+	  font-size:70px;
+	  width:60px;
+	  height:50px;
+	  float:left;
+	  line-height: 75px}
+	  
+	/* ------------------INTERVsection ------------------ */
+	
+	.intervention{ 
+		padding:0;display:table;width:100%;
+	   }
+ 
+	
+	.colonne {
+	  display:table-cell;
+	  vertical-align: middle; 
+	  padding: 75px;
+	
+	}
+	.colonne:first-child {
+	  width:61%;
+	  background:#F4F4F4;
+	  text-align: center;
+	  font-family:'HelveticaNeueW01-55Roma';
+	  font-weight: bold;font-size: 18px;
+
+	}
+	.colonne + .colonne {
+	  width:39%;
+	  background:#97C4D7;
+	  font-family: 'Archer A', 'Archer B'; font-weight: 500; font-style: normal;line-height: 35px
+	  
+	}
+	
+	
+	/* ------------------Prestations section ------------------ */
+	.prestations{		
+		padding:0;
+	}
+	
+
+	.l1,.l2,.l3{ 
+		display: table;
+		width: 100%
+	   }
+	 .l1{ 
+		background:#2a2c2a;
+	   }
+	 .l2{ 
+		background:#97c4d7;
+	  }
+	  .l3{ 
+		background:#f4f4f4;
+	  }  
+	  .l1>div,.l2>div,.l3>div{
+		  display: table-cell;
+		  vertical-align: middle;
+		  padding-left: 50%;
+		  font-family: 'Archer A', 'Archer B'; font-weight: 700; font-style: italic;font-size: 28px;line-height: normal;
+		  }
+		  
+		.l1>div>div,.l2>div>div,.l3>div>div{
+			max-width: 300px;
+		  }  
+		.l1>div>div span,.l2>div>div span,.l3>div>div span{
+		  font-family:'HelveticaNeueW01-55Roma';
+		  font-style: normal;
+		  font-weight: bold;
+		  font-size: 26px;
+		  letter-spacing: -1px
+		  }  
+		  		
+		 .arrow{ position:absolute;right:40px}
+		 
+
+	/* ------------------  BRAND right section ------------------ */
+	 
+	 
+	 
+	.right {
+	    height: 100%;
+	    float: left;
+	    width: 50%;
+	    background: #0189c3;
+	    -webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+	    
+	}
+	.rightcontain {
+	 	position: relative;
+	 	top: 50%;
+	 	transform: translateY(-50%);
+	 	padding: 40px 
+	}
+	
+	/* ------------------  OTHER  ------------------ */
+	
+	@media all and (max-width: 500px) {
+	    .container > div {
+	        float: none;
+	        width: 100%;
+	    }
+	}
+
+
+
+
+</style>
+
+
+<link href="perfect.css" rel="stylesheet">
+<link href="jquery.sidr.dark.css" rel="stylesheet">
+<script src="modernizr-2.5.3.min.js"></script>
+
+
+	</head>
+<body>
+ 
+ 
+
+<div id="sidr">
+  	<ul>
+	    <li><a href="#">Maison</a></li>
+	    
+	    <li class="active"><a href="#">Interventions</a></li>
+	    
+	    <li><a href="#">Prestations</a></li>
+	    <li class="submenu"><a href="#">L'analyse</a></li>
+	    <li class="submenu"><a href="#">La conception</a></li>
+	    <li class="submenu"><a href="#">La juste relation</a></li>
+	    
+	    <li><a href="#">Convictions</a></li>
+	    <li class="submenu"><a href="#">L'analyse prospective</a></li>
+	    <li class="submenu"><a href="#">L'image de l'entreprise</a></li>
+	    <li class="submenu"><a href="#">Corporate, tout est corporate</a></li>
+		
+		<li><a href="#">Opérations</a></li>
+		
+	    <li><a href="#">Répartition</a></li>
+		<li class="submenu"><a href="#">Check-up Conseil</a></li>
+	    <li class="submenu"><a href="#">Philippe Cherel</a></li>
+	    <li class="submenu"><a href="#">Prospectiv'Health</a></li>
+	</ul>
+</div>
+ 
+	
+		<a id="simple-menu" href="#sidr">
+			☰
+		</a>
+	
+<div class="container">
+
+	<div class="left">
+
+
+
+		<section style="background:#F4F4F4;" class="section" id="home">
+			
+		    <div class="category">Maison</div>
+			
+			<div class="leftcontainfull home">
+				
+				<p>
+					<span class="l"> L</span>a santé peut s'envisager comme un espace de communications entre de multiples et diverses communautés : patients, consommateurs, citoyens, professionnels, chercheurs, experts, décideurs institutionnels, politiques, militants, associations, acteurs économiques… L'enjeu relationnel est donc majeur. La prospective appliquée aux organisations de santé est une démarche d'anticipation qui permet, par ses méthodologies de veille tendancielle et d'analyse stratégique, d'identifier les choix possibles, d'élaborer les politiques efficaces et de mettre en place les tactiques opérationnelles adéquates pour s'inscrire dans un écosystème relationnel optimal.
+					
+				</p>
+				
+			</div>
+			   
+
+		</section>
+
+                       
+		<section class="section"  id="interventions">
+			
+		    <div class="category">Interventions</div>
+
+				<div class="leftcontainfull intervention" >
+					
+					<p class="colonne">
+						<col1>
+						<span style="font-family: 'Archer A', 'Archer B'; font-weight: 400; font-style: normal;font-size: 50px;	text-transform: uppercase">Secteurs d'intervention</span>
+						La santé et ses enjeux de communication intéressent plusieurs domaines sur lesquels Check-Up Conseil propose une expertise éprouvée en relations publics
+						</col1>
+					</p>
+					
+					<p class="colonne">
+						<col2>
+							Industrie pharmaceutique<br/>
+							Biotechnologie <br/>
+							Matériel médico-chirurgical<br/>
+							Assurances et Mutuelles<br/>
+							Enjeux de société<br/>
+							Grandes causes<br/>
+							Sociétés savantes<br/>
+							Associations de patients<br/>
+							Organisations internationales<br/>
+							Nutrition<br/>
+							Cosmétique
+						</col2>
+					</p>
+					
+		    	</div>
+
+		</section>
+        
+     
+		<section class="section"  id="prestations">
+			<div id="userNav">User Area</div>
+
+		    <div class="category white">Prestations</div>
+
+			<div class="leftcontainfull prestations">
+				
+				<div class="l1 white" >
+						<div class="arrow">></div>
+						<div>
+							<div>
+								<span>L'ANALYSE</span> intelligible du contexte
+							</div>
+						</div>
+
+						
+				</div>
+				
+				<div class="l2 ">
+						<div class="arrow">></div>
+						<div>
+							<div>
+								La conception et la diffusion de <span>VOS MESSAGES</span>
+							</div>
+						</div>
+				</div>
+				
+				<div class="l3">
+						<div class="arrow">></div>
+						<div>
+							<div>
+								<span>LA JUSTE</span> relation avec vos publics
+							</div>
+						</div>
+				</div>
+				
+				
+			</div>
+
+		</section>
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+        
+    </div>
+    
+    
+    <div class="right">
+            <div class="rightcontain">
+            MagicMorning - Création, graphisme, R&D - Lille - Paris
+
+
+            </div>
+    </div>
+    
+    
+</div>
+
+
+
+
+<script src="http://www.google.com/jsapi"></script>
+<script>
+	google.load("jquery", "1");
+</script>
+
+<script src="perfect.js"></script>
+<script src="sidr.js"></script>
+
+
+<script>
+
+    (function(c){function p(){var d,a={height:h.innerHeight,width:h.innerWidth};if(!a.height&&((d=i.compatMode)||!c.support.boxModel))d=d==="CSS1Compat"?k:i.body,a={height:d.clientHeight,width:d.clientWidth};return a}var m={},e,a,i=document,h=window,k=i.documentElement,j=c.expando;c.event.special.inview={add:function(a){m[a.guid+"-"+this[j]]={data:a,$element:c(this)}},remove:function(a){try{delete m[a.guid+"-"+this[j]]}catch(c){}}};c(h).bind("scroll resize",function(){e=a=null});setInterval(function(){var d=
+c(),j,l=0;c.each(m,function(a,b){var c=b.data.selector,e=b.$element;d=d.add(c?e.find(c):e)});if(j=d.length){e=e||p();for(a=a||{top:h.pageYOffset||k.scrollTop||i.body.scrollTop,left:h.pageXOffset||k.scrollLeft||i.body.scrollLeft};l<j;l++)if(c.contains(k,d[l])){var g=c(d[l]),f={height:g.height(),width:g.width()},b=g.offset(),n=g.data("inview"),o;if(!a||!e)break;b.top+f.height>a.top&&b.top<a.top+e.height&&b.left+f.width>a.left&&b.left<a.left+e.width?(o=a.left>b.left?"right":a.left+e.width<b.left+f.width?
+"left":"both",f=a.top>b.top?"bottom":a.top+e.height<b.top+f.height?"top":"both",b=o+"-"+f,(!n||n!==b)&&g.data("inview",b).trigger("inview",[!0,o,f])):n&&g.data("inview",!1).trigger("inview",[!1])}}},250)})(jQuery);
+
+
+    function changeSize() {
+/*
+        var width = parseInt($("#Width").val());
+        var height = parseInt($("#Height").val());
+
+        if(!width || isNaN(width)) {
+            width = 600;
+        }
+        if(!height || isNaN(height)) {
+            height = 800;
+        }
+        $(".left").width(width).height(height);
+
+        // update perfect scrollbar
+        $('.left').perfectScrollbar('update');
+*/
+		alert('ook');
+    }
+    
+
+
+
+    $(function() {
+	    
+	    
+        $('.left').perfectScrollbar({suppressScrollX: true,wheelPropagation: false,});
+        $('#simple-menu').sidr();
+		
+		var $content = $('.leftcontainfull');
+		var $colonne = $('.colonne');
+
+		var $window = $(window).on('resize', function(){
+		       
+		       // desktop : hauteur carrés
+		       var height = $(this).height();
+		       $content.height(height);
+		       
+		       
+		       // desktop : hauteur col dans carré
+		       $colonne.height(height); 
+			   // desktop : position du texte dans les 2 colonnes.
+		       var c1 = $( ".colonne:first col1" );
+		       var c2 = $( ".colonne:last col2" );
+			   var position = c1.position();
+			   c2.offset({ top: position.top});
+			  
+			  
+			  // 3 lignes dans carré
+			  $(".prestations > div").css("height",height/3);
+			  
+			  // positionnement arrow
+			  $( ".arrow" ).each(function() {
+					var l = $( this );
+				   var mid = $(l).parent().closest('div').position();
+				   l.offset({ top: mid.top+((height/3/2)-30)});
+				   $(this).css("font-size","40px");
+				});
+
+
+				$( ".l1" ).click(function() { 
+						// done
+						$('.category').unbind('inview');
+						$( ".arrow" ).css("display","none");
+/*
+						$( ".l1" ).css("height",height);
+						$( "#prestations" ).css("position","fixed");
+						$( "#prestations" ).css("top","0");
+						$( "#prestations" ).css("width","100%");
+*/
+				});
+				
+
+				
+				function bindCat(){
+					$('.category').bind('inview',function(event, isInView, visiblePartX, visiblePartY){  
+						if(isInView == true ) {
+					         //alert($( this ).parent().closest('section').attr('id'));
+					         var index = $( ".category" ).index( this );
+					         //alert(index);
+					         $( ".left" ).animate({ scrollTop: height*(index) },500);
+						}
+					}); 
+				}
+				bindCat();
+
+
+
+				$( "#close" ).click(function() { 
+						// done
+						$( ".arrow" ).css("display","block");
+						bindCat();
+						$( ".left" ).animate({ scrollTop: height*5 }, 10);
+				});
+				
+				
+
+		    }).trigger('resize');
+
+    });
+    
+
+
+
+</script>
+         
+
+
+
+    </body>
+</html>
+    
+        

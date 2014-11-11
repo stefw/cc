@@ -1,0 +1,328 @@
+
+/* ------------------  375px  ------------------ */
+
+@media only screen and (max-width:375px) { 
+	
+	
+		
+		
+		.category,.desktop{display: none}
+		.scrollsections	{height: auto;}
+		.categorymob{
+				display: block;
+				font-family:'HelveticaNeueW01-55Roma';
+				font-size:12px;
+				font-weight: bold;
+				height: 0;
+				text-align: right;
+				padding-top:20px;
+				padding-right: 15px;
+			}
+
+	
+		/* 
+			--------------  
+		HOME
+		--------------  */ 
+
+		#home{
+			background: #FFF;	
+		  	padding: 0px;
+		    display: block;
+			height: auto;
+		}
+		#home p{
+		  	font-size:16px;
+		  	line-height:22px;
+		  	padding: 15px;
+		  	float: left;
+		 	width: 100%;
+			height: auto;
+			padding-top: 100px
+		}
+
+		.arrow{
+			position:fixed;bottom:5%;left: 45%
+		}
+
+
+		#homemobile {
+		  background: #0189c3;
+		  	height:auto !important;padding: 0px;width: 100%;text-align: center;display: block;
+		  	min-height: 680px;padding: 15px;
+
+		}
+		
+
+		#homemobile header.hp-logo{  
+			height: auto;
+			padding: 15px;
+			float: right;
+			width: 100%;
+			margin-top: 70px;
+			margin-bottom: 20px;
+			text-align: left;
+		}  
+				
+		#homemobile header.hp-logo img{  
+			max-width: 100%;
+		}    
+
+		#homemobile h3 {
+		 	color: #FFF;
+		 	font-family: 'Archer A', 'Archer B'; font-weight: 400; font-style: normal;
+			font-size: 14px;
+			padding-left: 15px;
+			text-align: left
+			}
+		#homemobile p{
+		 font-size: 35px;
+		 text-align: left;
+		 padding-left: 15px;
+		}
+		
+		
+		#homemobile li {
+			list-style-type: none;
+			float: none;
+			border: none;
+			text-align: center
+		}
+		#homemobile li a {
+			display:block;
+			float:left;
+			height:42px;
+			width:42px;
+			margin:0px;
+			text-indent:-9999px;
+			font-size: 0px;
+			margin-left: 10px;
+		}
+
+
+		/* 
+			--------------  
+		
+		--------------  */ 
+		.repartitions > div > div .colonne, #liste  > div > div .colonne, .article > div.colonne,#interventions  > div > div .colonne {
+			height:auto !important;padding: 15px;float: left;width: 100%;text-align: left;display: block
+			}
+			
+		.repartitions > div > div .colonne + .colonne , #liste  > div > div .colonne + .colonne , .article > div.colonne + .colonne , #interventions .colonne + .colonne,#interventions  > div > div .colonne,#interventions  > div > div,#interventions  > div,#liste .colonne + .colonne,#liste  > div > div .colonne,#liste  > div > div,#liste  > div	{
+			height:auto !important;float: left;width: 100%;text-align: left;display: block
+			}
+			
+		/* 
+			--------------  
+		#interventions
+		--------------  */ 
+
+	
+		#interventions  > div > div .colonne {
+			vertical-align: top;
+			text-align:center;
+		}
+	
+		#interventions  > div > div .colonne .categorymob {
+			padding-bottom: 100px;
+			padding-right: 0px;
+			padding-top: 0px;
+		}		
+
+
+		
+		#interventions  > div > div .colonne span{
+			font-size: 22px;
+			text-transform: uppercase;
+			text-align: left;
+
+		}
+		#interventions .colonne + .colonne {
+			background: #F4F4F4;
+			line-height: normal
+
+		}
+			
+		/* 
+			--------------  
+
+		--------------  */ 
+
+		#prestations{display: none}
+		#convictions{display: none}
+			
+						
+		.l1{height: auto;padding: 15px;float: left;width: 100%;}
+		
+		#article1 .l1{ 
+			background:#2a2c2a;
+			padding-top: 100px;
+			height:auto !important;float: left;width: 100%;text-align: left;display: block
+
+		}
+		#article2 .l1{ 
+			background:#97c4d7;
+			padding-top: 100px;
+			height:auto !important;float: left;width: 100%;text-align: left;display: block
+		}
+		#article3 .l1{ 
+			background:#f4f4f4;
+			padding-top: 100px;
+			height:auto !important;float: left;width: 100%;text-align: left;display: block
+		}
+
+		
+		.l1>div,.l2>div,.l3>div{
+			height: auto;width: 100%;
+			 font-family: 'Archer A', 'Archer B'; font-weight: 700; font-style: italic;font-size: 30px;line-height: normal;
+			 text-align: center;
+			 padding: 0
+			}
+		  
+		.l1>div>div,.l2>div>div,.l3>div>div{
+			width: 100%;
+			max-width: 100%
+		  }  
+		.l1>div>div span,.l2>div>div span,.l3>div>div span{
+			  font-family:'HelveticaNeueW01-55Roma';
+			  font-style: normal;
+			  font-weight: bold;
+			  font-size:30px;
+			  letter-spacing: -1px;
+			  display:table;min-width:100%;width:100%;
+		  }  
+
+  
+
+		#article1,#article2,#article3 {
+			height:auto !important;float: left;width: 100%;text-align: left;display: block
+
+		}
+		
+		
+		
+		#article1 .colonne,#article2 .colonne {	height: auto;padding: 15px;float: left;width: 100%}
+		#article1 .colonne + .colonne,#article2 .colonne + .colonne {height: auto;padding: 15px;float: left;width: 100%}
+		
+		#article3 p{  
+			height: auto;padding: 15px;float: left;width: 100%;		vertical-align: top; 
+			font-family:'HelveticaNeueW01-55Roma';
+			font-size:12px;
+			line-height:18px;
+			padding: 15px;
+	
+		} 
+			
+		/* 
+			--------------  
+			
+		--------------  */ 		
+		.repartitions > div > div .colonne {
+			display: none
+		}
+		.repartitions > div > div .colonne.rep1{
+			display: block;
+			background: #97c4d7;
+			color: #FFF;
+			padding-top: 100px;
+			padding-bottom: 75px;
+			text-align: center
+		}
+		.repartitions > div > div .colonne p {
+			margin-top:10px
+		}
+
+
+		#article4, #article5, #article6 {
+			height:auto !important;
+			padding: 0px;
+			float: left;
+			width: 100%;
+			text-align: left;
+			display: block;
+
+		}
+		
+		#article4{ 
+			background:#97c4d7;
+		}
+		#article5{ 
+			background:#f4f4f4;
+		}
+		#article6{ 
+			background:#909290;
+		}
+
+			
+		.contain{
+			  	 margin:0px auto;padding: 15px;padding-top: 100px
+		}	
+		.contain-p{
+			  	 margin-top:10px;font-size: 16px;line-height: 18px
+		}
+		
+		.repartitions .colonne + .colonne{
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+
+			
+		/* 
+			--------------  
+		
+		--------------  */ 			
+
+
+
+		li{
+			display: block;
+			width: 100%;
+			border-bottom: 1px solid #DEDEDE;
+			line-height: 20px;
+			text-align: center
+		}
+
+	
+		#liste   .colonne + .colonne {
+			background:#2A2C2A;
+		}
+
+	
+		#liste   .colonne + .colonne li {
+			color:#FFF;
+		}
+		
+		#liste > div > div .colonne h2{text-align: center;border: none}
+
+		#liste > div > div .colonne li{text-align: center;border: none;margin:0px auto; }
+		#liste > div > div .colonne li a.pinterest{margin-left: 43%}
+				
+		.sidr ul li {
+			display: block;
+			margin: 0;
+			line-height: 28px;
+			font-size: 18px;
+			font-weight:bold;
+			border:none;
+			text-align: left
+		}
+		
+		
+		#credits {
+		  height: auto;
+		  padding: 15px
+		}
+
+		#credits p{  
+			height: 100%;
+			vertical-align: middle; 
+			font-family: 'Archer A', 'Archer B'; font-weight: 400; font-style: normal;
+			font-size: 14px;
+			color: #000;
+			line-height: 18px;
+			text-align: center
+		} 
+			
+
+} 

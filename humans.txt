@@ -1,0 +1,13 @@
+/* TEAM */
+
+	Design: Selina Ebert
+	Compagny: MagicMorning
+	Twitter: @_magicmorning_
+	Url: http://www.magicmorning.net
+	From : Lille / Paris, France
+
+	Tech: MagicMorning
+	Compagny: MagicMorning
+	Twitter: @_magicmorning_
+	From : Lille / Paris, France
+	
